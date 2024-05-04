@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../static/css/sugestion.css">
+   <link rel="stylesheet" href="../static/css/main.css">
+   <script src="../static/js/main.js"></script>
+   <title>الاقتراحات</title>
+</head>
+<body>
+
+   <div class="container">
+      <script>showNavbar()</script>
+
+      <h3>الاقتراحات</h3>
+      <div class="sug">
+         {% for item in data }
+         {% endfor %}
+         <div>
+            <img src="../static/images/msaa3a.jpg" alt="">
+            <span>دقيقه 35</span>
+            <span>مسقعه</span>
+         </div>
+         <div>
+            <img src="../static/images/mahshi.jpg" alt="">
+            <span>دقيقه 40</span>
+            <span>محشي</span>
+         </div>
+         <div>
+            <img src="../static/images/xg.jpg" alt="">
+            <span>دقيقه 45</span>
+            <span>لفائف الباذنجان</span>
+         </div>
+         <div>
+            <img src="../static/images/ghanosh.jpg" alt="">
+            <span>دقيقه 20</span>
+            <span>بابا غنوج</span>
+         </div>
+
+      </div>
+   </div>
+   
+</body>
+</html>

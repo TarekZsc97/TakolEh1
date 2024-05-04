@@ -1,0 +1,60 @@
+
+
+
+.sign-in{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.sign-in h3{
+   font-size: 35px;
+   margin-bottom: 10px;
+}
+.sign-in input{
+   margin: 10px auto;
+   padding: 5px;
+   width: 280px;
+}
+.span span{
+   margin: 10px 20px;
+   font-size: 20px;
+   cursor: pointer;
+}
+.sign-in button{
+   width: 300px;
+   /* height: 30px; */
+   border-radius: 25px;
+   background: var(--second-color);
+   border: none;
+   margin:10px auto;
+   font-size: 28px;
+   color: white;
+   cursor: pointer;
+}
+.sign-in button a{
+text-decoration: none;
+color: white;}
+
+.sign-in span.or{
+   font-size: 28px;
+   position: relative;
+}
+.or::before{
+   content: '';
+   width: 135px;
+   height: 2px;
+   background: #000;
+   position: absolute;
+   top: 56%;
+   left: 80px;
+}
+.or::after{
+   content: '';
+   width: 135px;
+   height: 2px;
+   background: #000;
+   position: absolute;
+   top: 56%;
+   right: 80px;
+}
+

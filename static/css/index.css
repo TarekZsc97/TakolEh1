@@ -1,0 +1,61 @@
+:root{
+   --main-color: #fff7e7;
+   --second-color: #f24822;
+   --third-color: #7f7a72;
+   --large-font :30px ;
+   --medium-font :28px ;
+   --small-font : 20px ;
+}
+.header .log-in{
+   width: 20%;
+}
+.container{
+   background-image: url(../images/background.png) !important;
+}
+
+.site-info div:first-child{
+   width: 40%;
+   position: relative;
+   top: 40px;
+}
+.site-info div:first-child img{
+   width: 85%;
+}
+.site-info .text{
+width: 35%;
+position: relative;
+top: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: var(--large-font);
+font-weight: 600;
+text-align: center;
+}
+.que{
+   min-width: 400px;
+   margin: auto;
+   margin-bottom: 150px;
+}
+.que p{
+   margin-bottom: 10px;
+}
+.text div:last-child{
+   margin: auto;
+   margin-bottom: 140px;
+}
+.btn{
+   width: 200px;
+   border-radius: 25px;
+   background: var(--second-color);
+   border: none;
+   margin: auto;
+   margin-top: 40px;
+   
+}
+.btn a{
+   text-decoration: none;
+   color: white;
+   font-size: var(--large-font);
+}
+

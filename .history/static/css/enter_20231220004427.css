@@ -1,0 +1,132 @@
+
+.header .log-in{
+   width: 20%;
+   cursor: pointer;
+}
+.enter{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+}
+.enter .image{
+   width: 40%;
+   position: relative;
+   top: 40px;
+}
+.enter .image img{
+   width: 85%;
+}
+.enter .text{
+width: 35%;
+position: relative;
+top: 40px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+}
+.title{
+   margin: 90px auto 0 0;
+   color: var(--second-color);
+   position: relative;
+   top: -120px;
+   left: 50px;
+   font-size: 40px;
+
+}
+.add-item{
+   margin:0 auto 20px 50px;
+   padding: 5px;
+   width: 60%;
+   position: relative;
+}
+.add-item .add{
+   color: white;
+   font-size: 27px;
+   border-radius: 25px;
+   border: none;
+   cursor: pointer;
+   position: relative;
+}
+.text .search{
+   width: 195px;
+   text-align: right;
+   font-size: 20px;
+   padding: 5px;
+   border-radius: 25px;
+   border: 1px solid  rgb(171, 168, 168) ;
+   margin: 20px auto;
+   position: absolute;
+   right: 55px;
+   top: -80px;
+   outline: none;
+   
+}
+.add-btn{
+   width: 90px;
+   border-radius: 25px;
+   background: var(--second-color);
+   border: none;
+   margin: auto;
+   margin-top: 15px;
+   font-size: 28px;
+   cursor: pointer;
+   color: white;
+   position: absolute;
+   top: -78px;
+   right: -60px;
+}
+.gradiants{
+height: 190px;
+background: white;
+border: 1px solid  rgb(171, 168, 168) ;
+margin-top: 70px;
+font-size: 22px;
+padding: 8px 8px 8px 5px ;
+border-radius: 20px;
+border: 1px solid  rgb(171, 168, 168) ;
+width: 300px;
+margin: 20px auto;
+overflow: hidden;
+text-align: right;
+display: flex;
+flex-direction: column;
+}
+.btn{
+   width: 200px;
+   border-radius: 25px;
+   background: var(--second-color);
+   border: none;
+   margin: auto;
+   margin-top: 15px;
+   font-size: 30px;
+   cursor: pointer;
+}
+.btn a{
+   text-decoration: none;
+   color: white;
+}
+.grad{
+   display: flex;
+   padding: 2px 15px;
+   border-radius: 25px;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 8px ;
+   background: whitesmoke;
+}
+.cancel {
+   width: 25px;
+   height: 25px;
+   color: white;
+   background: var(--second-color);
+   border-radius: 50%;
+   cursor: pointer;
+   text-align: center;
+   line-height: 25px;
+}
+
+.

@@ -1,0 +1,47 @@
+
+:root{
+   --main-color : #fff7e7;
+   --second-color : #f24822;
+   --third-color : #7f7a72;
+   --large-font :30px ;
+   --medium-font :28px ;
+   --small-font : 20px ;
+}
+
+h3{
+   font-size: 35px;
+   text-align: center;
+   margin:10 auto 0;
+   color: var(--second-color);
+   letter-spacing: 1px;
+}
+.sug{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 20px 50px;
+   margin: auto;
+   margin-left: 110px;
+   width: 95%;
+}
+.sug>div{
+   aspect-ratio: 1/1;
+   width: 42%;
+   margin-bottom: -180px;
+}
+.sug>div img{
+   width: 430px;
+   height: 290px;
+   border: 5px solid white;
+   vertical-align: top;
+   cursor: pointer;
+}
+.sug>div span{
+   width: 35%;
+   display: inline-block;
+   font-size: var(--large-font); 
+   color: var(--second-color);
+   font-weight: bolder;
+   margin-left: 40px;
+}
